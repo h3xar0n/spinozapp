@@ -25,6 +25,7 @@
     color: #1c252b;
     background-color: #f6f4ef;
     font-size: 20px;
+    margin: 0;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -112,16 +113,15 @@
   position: fixed;
   z-index: 1001;
   padding-top: 10px;
-}
+  img {
+    width: 65px;
+    margin: 0 9vw;
+    display: inline;
+    }
+  h1 {
+    display: inline;
+    padding-top: 40px;
+    }
+  }
 
-.top img {
-  width: 65px;
-  margin: 0 9vw;
-  display: inline;
-}
-
-.top h1 {
-  display: inline;
-  padding-top: 40px;
-}
 </style>
