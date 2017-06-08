@@ -2,7 +2,7 @@
   <div>
     <p>Server Status: {{ status }}</p>
     <hr>
-    <button @click="changeStatus"> Change Status</button>
+    <button @click="changeStatus">Change Status</button>
   </div>
 </template>
 
